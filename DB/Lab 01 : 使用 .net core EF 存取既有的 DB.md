@@ -73,6 +73,7 @@ dotnet ef dbcontext scaffold "連線字串" Microsoft.EntityFrameworkCore.SqlSer
 dotnet ef dbcontext scaffold "Server=tcp:exampledb2020.database.windows.net,1433;Initial Catalog=cNorthWind;Persist Security Info=False;User ID=acc01;Password=vdsk@31dxbZf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer
 ```
 如果成功，你會發現dotnet ef已經為您在專案中建立的ORM的dbcontext類別：
+
 ![enter image description here](https://i.imgur.com/ZsU8TzN.png)
 
 試著建置一下:
@@ -105,6 +106,7 @@ namespace t1
 
 ```
  執行後，將會取得資料庫中的內容，並顯示出來：
+ 
  ![enter image description here](https://i.imgur.com/mySdpnl.png)
  
 相關參考資料
