@@ -52,8 +52,8 @@ dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
 
-安裝完成後，請準備好SQL Azure資料庫相關連線資料。
-例如底下是可試用的Azure DB:
+安裝完成後，請準備好SQL Azure資料庫相關連線資料。  
+例如，底下是可試用的Azure DB:
 ```
 azure 資料庫位置url: exampledb2020.database.windows.net
 DB Name: cNorthWind
@@ -62,7 +62,8 @@ DB Name: cNorthWind
 ```
 有了上述相關資料，你可以組出可用的連線字串，例如:
 ```
-連線字串: Server=tcp:exampledb2020.database.windows.net,1433;Initial Catalog=cNorthWind;Persist Security Info=False;User ID=acc01;Password=vdsk@31dxbZf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+連線字串: 
+Server=tcp:exampledb2020.database.windows.net,1433;Initial Catalog=cNorthWind;Persist Security Info=False;User ID=acc01;Password=vdsk@31dxbZf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 ```
 接著，我們在專案資料夾中，鍵入底下指令:
 ```
