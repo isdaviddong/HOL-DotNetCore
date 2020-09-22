@@ -61,6 +61,7 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
 你可以在資料庫節點上，手動加入一個新的資料庫。例如底下我們建立了Test01:
 ![enter image description here](https://i.imgur.com/X6i492U.png)
+
 接著，我們可以繼續為Test01這個DB建立Table(名稱為Table1，並建立Id, field1, field2這三個field:
 ![enter image description here](https://i.imgur.com/B7tExc6.png)
 
