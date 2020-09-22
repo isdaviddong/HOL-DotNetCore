@@ -15,7 +15,7 @@
 ```bash
 dotnet  tool install --global dotnet-ef
 ```
-5. 安裝Visual Studio 2019 [here](https://visualstudio.microsoft.com/zh-hant/vs/)
+5. 安裝Visual Studio 2019 [here](https://visualstudio.microsoft.com/zh-hant/vs/) 或 SSMS 來建立與編輯Local DB，最新版的SSMS位於 [here](https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
 ## Steps
 
@@ -55,8 +55,8 @@ PS D:\coredb>
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 ```
-
-安裝完成後，請開啟Visual Studio 2019，我們使用VS2019內的SQL Server物件總管來建立LocalDB。
+### 建立LocalDB
+安裝完成後，請開啟Visual Studio 2019，我們使用VS2019內的SQL Server物件總管來建立LocalDB。(您也可以透過SSMS進行)
 ![enter image description here](https://i.imgur.com/uwZzAe9.png)
 
 你可以在資料庫節點上，手動加入一個新的資料庫。例如底下我們建立了Test01:
@@ -79,7 +79,10 @@ CREATE TABLE [dbo].[Table1	] (
 ![enter image description here](https://i.imgur.com/Y5jotCT.png)
  
 在資料表中準備好資料後，就可以嘗試使用了。
+>上面這段動作，你也可以透過SSMS進行，最新版的SSMS位於 [here](https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+>![enter image description here](https://i.imgur.com/yhvmj0E.png)
 
+### 建立程式碼中的連線字串與Model
 MS SQL Local DB的連線字串大概長的像底下這樣:
 ```
 Server=(localdb)\MSSQLLocalDB;Initial Catalog=資料庫名稱;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
@@ -97,6 +100,7 @@ dotnet ef dbcontext scaffold "Server=(localdb)\MSSQLLocalDB;Initial Catalog=資�
 如果成功，你會發現dotnet ef已經為您在專案中的Models資料夾底下，建立的ORM的db context類別(下圖A)：
 ![enter image description here](https://i.imgur.com/EE3DFPm.png)
 
+### 撰寫資料庫存取程式碼
 試著建置(dotnet build)一下，並且接著在main.cs中撰寫如上圖B的程式碼:
 ```csharp
 using System;
