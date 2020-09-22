@@ -1,13 +1,11 @@
-使用 .net core EF存取Local DB
+使用 .net core EF存取MS SQL Local DB
 ===
 
 ## Overview
 這個Lab快速介紹如何透過 C# 使用 .net core EF 存取 MS SQL Local DB資料庫，關於Local DB相關資訊可參考底下:
-```
-SQL Server Express LocalDB 是 簡易版的 SQL 資料庫，
-適合在開發測試階段使用，相關的資訊可以參考:
-https://docs.microsoft.com/zh-tw/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15
-```
+
+>SQL Server Express LocalDB 是 簡易版的 SQL 資料庫，
+適合在開發測試階段使用，相關的資訊可以參考: [here](https://docs.microsoft.com/zh-tw/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15) 
 
 ## Prerequisites
 1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
