@@ -134,8 +134,8 @@ dotnet run
 
 相關參考資料
 ---
-[SQL Server Express LocalDB](https://docs.microsoft.com/zh-tw/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15)
-[開始使用 EF Core](https://docs.microsoft.com/zh-tw/ef/core/get-started/?tabs=netcore-cli)   
-[反向工程](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli)
+[SQL Server Express LocalDB](https://docs.microsoft.com/zh-tw/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15)  
+[開始使用 EF Core](https://docs.microsoft.com/zh-tw/ef/core/get-started/?tabs=netcore-cli)    
+[反向工程](https://docs.microsoft.com/zh-tw/ef/core/managing-schemas/scaffolding?tabs=dotnet-core-cli)  
 
 如果需要即時取得更多相關訊息，可按[這裡](https://www.facebook.com/DotNetWalker/)加入FB專頁。若這篇文章對您有所幫助，請幫我們分享出去，謝謝您的支持。
