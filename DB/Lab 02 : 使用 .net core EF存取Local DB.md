@@ -79,8 +79,8 @@ CREATE TABLE [dbo].[Table1	] (
 ![enter image description here](https://i.imgur.com/Y5jotCT.png)
  
 在資料表中準備好資料後，就可以嘗試使用了。
->上面這段動作，你也可以透過SSMS進行，最新版的SSMS位於 [here](https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
->![enter image description here](https://i.imgur.com/yhvmj0E.png)
+>上面這段動作，你也可以透過SSMS進行，最新版的SSMS位於 [here](https://docs.microsoft.com/zh-tw/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)   
+>   ![enter image description here](https://i.imgur.com/yhvmj0E.png)
 
 ### 建立程式碼中的連線字串與Model
 MS SQL Local DB的連線字串大概長的像底下這樣:
