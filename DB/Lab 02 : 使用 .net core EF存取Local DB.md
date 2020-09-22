@@ -127,7 +127,7 @@ dotnet run
 ```
 
  執行後，將會取得資料庫中的內容，並顯示出來：
- ![enter image description here](https://i.imgur.com/RiZfDTz.png)
+    ![enter image description here](https://i.imgur.com/RiZfDTz.png)
 
 您已成功的使用MS SQL Local DB了。 
 
