@@ -180,6 +180,7 @@ https://localhost:5001/examples/sample
 這也是後端para物件可以接收到前端傳來的 height與weight的原因。最後，再將計算結果result，回傳給前端。
 
 前端收到結果後，再顯示出來：
+
 ![enter image description here](https://i.imgur.com/bK8LFAt.png)
 
 這個行為，形成了PageMethod的主要運行結構。
