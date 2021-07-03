@@ -160,7 +160,27 @@ https://localhost:5001/examples/sample
 執行結果如下：
 ![enter image description here](https://i.imgur.com/5mqOYq0.png   )
 
-這是一個以 PageMethod 執行非同步(AJAX)頁面的 BMI 範例。
+這是一個以 PageMethod 執行非同步(AJAX)頁面的 BMI 範例。輸入身高體重後，點選計算，會出現BMI計算結果。
+網址:  https://localhost:5001/examples/SampleWithLayout 則是有搭配 Layout的版本：
+![enter image description here](https://i.imgur.com/oMqVsCM.png)
+
+可檢視 examples資料夾下的 .cshtml頁面比較差異。
+
+## 關於程式碼
+關於程式碼的部分，請參考 /examples/SampleWithLayout.cshtml.cs
+請特別留意，WebApp繼承的頁面是 isPageModel(而非PageModel)：
+![enter image description here](https://i.imgur.com/dcuXEzM.png)
+此外，CalBmi這個Method掛上了 [PageMethod] 這個 attribute。這也是該method之所以可以被前端Button呼叫的原因，我們看前端頁面 SampleWithLayout.cshtml。 前端頁面中，按鈕 ButtonCal Click時，會執行到 ExecutePageMethod這個方法：
+![enter image description here](https://i.imgur.com/LZNtCeH.png)
+
+該方法會執行後端的 PageMethod，並且將類似底下的JSON參數 { height:  170 , weight:  70 }，傳遞給後端的 PageMethod：
+![enter image description here](https://i.imgur.com/wDJRDkb.png)
+這也是後端para物件可以接收到前端傳來的 height與weight的原因。最後，再將計算結果result，回傳給前端。
+
+前端收到結果後，再顯示出來：
+![enter image description here](https://i.imgur.com/bK8LFAt.png)
+
+這個行為，形成了PageMethod的主要運行結構。
 
 相關參考資料
 ---
