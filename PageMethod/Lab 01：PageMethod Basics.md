@@ -1,4 +1,4 @@
-01. 如何使用PageMethod框架
+Lab 01：PageMethod Basics
 ===
 
 ## Overview
