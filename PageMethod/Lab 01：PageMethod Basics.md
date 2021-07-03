@@ -3,8 +3,10 @@
 
 ## Overview
 這個 Lab介紹如何使用  PageMethod 框架快速開發 .net core WebApp應用程式。
-![enter image description here](https://i.imgur.com/5mqOYq0.png)
+![enter image description here](https://i.imgur.com/5mqOYq0.png =500x)
+
 這是一個以 PageMethod 執行非同步(AJAX)頁面的 BMI 範例。
+
 ## Prerequisites
 1. 下載安裝 .net core sdk 3.1+ 以上版本 [here](https://dotnet.microsoft.com/download)
 2. 安裝 Visual Studio Code 開發工具 [here](https://code.visualstudio.com/download)
@@ -156,7 +158,7 @@ info: Microsoft.Hosting.Lifetime[0]
 https://localhost:5001/examples/sample
 ```
 執行結果如下：
-![enter image description here](https://i.imgur.com/5mqOYq0.png)
+![enter image description here](https://i.imgur.com/5mqOYq0.png =500x)
 
 這是一個以 PageMethod 執行非同步(AJAX)頁面的 BMI 範例。
 
