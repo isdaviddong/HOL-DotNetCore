@@ -174,6 +174,7 @@ info: Microsoft.Hosting.Lifetime[0]
 
 請終止程式運行，進入 sample.cshtml.cs ，將程式碼改為：  
 ![enter image description here](https://i.imgur.com/J21rS8X.png)
+
 你會發現，當EnableUsers設為 eric時，若登入者不是Eric，則會收錯誤。當設定 Auth() 屬性，用戶卻沒有登入時，也會收到錯誤。 
 
 相關參考資料
