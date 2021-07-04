@@ -172,7 +172,7 @@ info: Microsoft.Hosting.Lifetime[0]
 您可以透過網址 https://localhost:5001/examples/sample 查看測試頁面，你會發現，當輸入身高體重，會算出BMI
 ![enter image description here](https://i.imgur.com/TkcnRIL.png)
 
-請終止程式運行，進入 sample.cshtml.cs ，將程式碼改為：
+請終止程式運行，進入 sample.cshtml.cs ，將程式碼改為：  
 ![enter image description here](https://i.imgur.com/J21rS8X.png)
 你會發現，當EnableUsers設為 eric時，若登入者不是Eric，則會收錯誤。當設定 Auth() 屬性，用戶卻沒有登入時，也會收到錯誤。 
 
