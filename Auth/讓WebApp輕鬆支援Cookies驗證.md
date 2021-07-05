@@ -209,10 +209,11 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 完成後(記得儲存所有修改)，接著使用 dotnet run 執行該程式，運行起來後，你可以在底下畫面點選 Login：
 ![enter image description here](https://i.imgur.com/NLga3Hu.png)
 
-系統並沒有限制帳號密碼，你可以輸入任何帳號，都會成功登入。您可以觀察Login.cshtml.cs以了解相關程式碼。
+系統並沒有限制帳號密碼，你可以輸入任何帳號，都會成功登入。
+您可以觀察Login.cshtml.cs以了解相關程式碼。
 
 當您登入之後，不管如何切換頁面，都會發現該用戶都處於登入狀態：
-每一個頁面![enter image description here](http://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF)
+ ![enter image description here](http://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF)
 
 用戶如需登出，點選『Logout』即可。
 
