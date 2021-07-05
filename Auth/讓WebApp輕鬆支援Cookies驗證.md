@@ -3,7 +3,7 @@
 
 ## Overview
 這個 Lab介紹如何透過 C# 使用 .net core WebApp(Razor Page Model) 以cookie authentication方式建立登入功能。
-![enter image description here](http://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF)
+<img src=https://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF>
 
 ## Prerequisites
 1. 下載安裝 .net core sdk 3.1 以上版本 [here](https://dotnet.microsoft.com/download)
