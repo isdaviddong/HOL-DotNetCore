@@ -65,7 +65,7 @@ The template "isRock.Web.Core.Razor.Template.isLoginPage" was created successful
 ```
 3.  使用 鍵入 Code . 指令以VS Code開啟專案
 ```
-code .
+PS C:\testcode\testlogin> code .
 ```
  執行後會開啟VS Code:![enter image description here](https://i.imgur.com/oYzyBMM.png) 
 
