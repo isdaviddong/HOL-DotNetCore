@@ -63,7 +63,7 @@ dotnet new islogin
 PS C:\testcode\testlogin> dotnet new isloin
 The template "isRock.Web.Core.Razor.Template.isLoginPage" was created successfully.
 ```
-3.  使用 鍵入 ode . 指令以VS Code開啟專案
+3.  使用 鍵入 Code . 指令以VS Code開啟專案
 ```
 code .
 ```
