@@ -37,7 +37,7 @@ dotnet new --install isRock.Web.Core.Razor.Example
 3. 建立 .net core WebApp專案
 在命令列模式建立資料夾，接著透過 dotnet new 指令建立專案
 ```bash
-PS DC:\testcode\> md testlogin
+PS CD:\testcode\> md testlogin
 PS CD:\testcode\> cd testlogin
 PS CD:\testcode\testlogincoredb> dotnet new WebApp
 ```
