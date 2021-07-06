@@ -1,5 +1,4 @@
-
-讓WebApp輕鬆支援Cookies驗證
+開開心心學WebApp：輕鬆支援Cookies驗證
 ===
 
 ## Overview
@@ -213,7 +212,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 您可以觀察Login.cshtml.cs以了解相關程式碼。
 
 當您登入之後，不管如何切換頁面，都會發現該用戶都處於登入狀態：
- ![enter image description here](http://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF)
+![enter image description here](http://arock.blob.core.windows.net/blogdata202107/EC092504-FB5B-4059-ADAD-A58C03D15309.GIF)
 
 用戶如需登出，點選『Logout』即可。
 
