@@ -14,4 +14,6 @@ Lab 04.  [使用 .net core 搭配 LINE Login 進行SSO 身分驗證.md](https://
 ## PageMethod
 PageMethod 架構
 
-[Lab 01：PageMethod Basics.md](https://github.com/isdaviddong/HOL-DotNetCore/blob/master/PageMethod/Lab%2001%EF%BC%9APageMethod%20Basics.md "Lab 01：PageMethod Basics.md")
+[Lab 01：PageMethod Basics.md](https://github.com/isdaviddong/HOL-DotNetCore/blob/master/PageMethod/Lab%2001%EF%BC%9APageMethod%20Basics.md "Lab 01：PageMethod Basics.md")  
+[Lab 02：Auth.md](https://github.com/isdaviddong/HOL-DotNetCore/blob/master/PageMethod/Lab%2002%EF%BC%9AAuth.md "Lab 02：Auth.md")  
+
