@@ -39,7 +39,7 @@ dotnet new --install isRock.Web.Core.Razor.Example
 ```bash
 PS CD:\testcode\> md testlogin
 PS CD:\testcode\> cd testlogin
-PS CD:\testcode\testlogincoredb> dotnet new WebApp
+PS CD:\testcode\testlogincoredb> dotnet new webapp
 ```
 系統會出現類似底下畫面...
 ```bash
@@ -151,6 +151,42 @@ PS C:\testcode\testlogin> code .
 using Microsoft.AspNetCore.Authentication.Cookies;
 #endregion
 ```
+
+如果是 .net 6 以上版本，請修改 Program.cs, 完成後的內容如下
+```c#
+#region ForSignIn
+using Microsoft.AspNetCore.Authentication.Cookies;
+#endregion
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddRazorPages();
+            #region ForSignIn
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            #endregion
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapRazorPages();
+
+app.Run();
+```
+
 8. 最後，修改 /Shared/_Layout.cshtml 以配合登入UI，將底下程式碼...
 ```html
     <header>
