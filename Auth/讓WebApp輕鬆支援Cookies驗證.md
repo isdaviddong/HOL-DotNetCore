@@ -56,11 +56,11 @@ Restore succeeded.
 ```
 2. 在專案資料夾中，執行
 ```
-dotnet new islogin
+ dotnet new isLoginPage
 ```
 系統會出現類似底下畫面...
 ```bash
-PS C:\testcode\testlogin> dotnet new isloin
+PS C:\testcode\testlogin>  dotnet new isLoginPage
 The template "isRock.Web.Core.Razor.Template.isLoginPage" was created successfully.
 ```
 3.  使用 鍵入 Code . 指令以VS Code開啟專案
